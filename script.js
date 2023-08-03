@@ -33,7 +33,7 @@ function calculate() {
                     document.getElementById("result1").innerText = "Myanmar: " + subj1 + " (fail)";
                 }
                 else if(subj1>=75){
-                    document.getElementById("result1").innerText = "Myanmar: " + subj1 + " (distinction)";
+                    document.getElementById("result1").innerText = "Myanmar: " + subj1 + " (pass with distinction)";
                 }
                 else {
                     document.getElementById("result1").innerText = "Myanmar: " + subj1 + " (pass)";
@@ -45,7 +45,7 @@ function calculate() {
                     document.getElementById("result2").innerText = "English: " + subj2 + " (fail)";
                 }
                 else if(subj2>=75){
-                    document.getElementById("result2").innerText = "English: " + subj2 + " (distinction)";
+                    document.getElementById("result2").innerText = "English: " + subj2 + " (pass with distinction)";
                 }
                 else {
                     document.getElementById("result2").innerText = "English: " + subj2 + " (pass)";
@@ -57,7 +57,7 @@ function calculate() {
                     document.getElementById("result3").innerText = "Mathematics: " + subj3 + " (fail)";
                 }
                 else if(subj3>=80){
-                    document.getElementById("result3").innerText = "Mathematics: " + subj3 + " (distinction)";
+                    document.getElementById("result3").innerText = "Mathematics: " + subj3 + " (pass with distinction)";
                 }
                 else{
                     document.getElementById("result3").innerText = "Mathematics: " + subj3 + " (pass)";
@@ -69,7 +69,7 @@ function calculate() {
                     document.getElementById("result4").innerText = "Physics: " + subj4 + " (fail)";
                 }
                 else if(subj4>=80){
-                    document.getElementById("result4").innerText = "Physics: " + subj4 + " (distinction)";
+                    document.getElementById("result4").innerText = "Physics: " + subj4 + " (pass with distinction)";
                 }
                 else{
                     document.getElementById("result4").innerText = "Physics: " + subj4 + " (pass)";
@@ -82,7 +82,7 @@ function calculate() {
                     document.getElementById("result5").innerText = "Chemistry: " + subj5 + " (fail)";
                 }
                 else if(subj5>=80){
-                    document.getElementById("result5").innerText = "Chemistry: " + subj5 + " (distinction)";
+                    document.getElementById("result5").innerText = "Chemistry: " + subj5 + " (pass with distinction)";
                 }
                 else{
                     document.getElementById("result5").innerText = "Chemistry: " + subj5 + " (pass)";
@@ -94,7 +94,7 @@ function calculate() {
                     document.getElementById("result6").innerText = "Biology: " + subj6 + " (fail)";
                 }
                 else if (subj6>=75){
-                    document.getElementById("result6").innerText = "Biology: " + subj6 + " (distinction)";
+                    document.getElementById("result6").innerText = "Biology: " + subj6 + " (pass with distinction)";
                 }
                 else{
                     document.getElementById("result6").innerText = "Biology: " + subj6 + " (pass)";
