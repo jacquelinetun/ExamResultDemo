@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Grading System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body class="ms-5 bg-warning-subtle">
+    <h2>Grading System with JavaScript</h2>
+    <div class="mb-3">
+        <label for="subj1">Myanmar:</label>
+        <input type="text" id="subj1" name="subj1" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="subj2">English:</label>
+        <input type="text" id="subj2" name="subj2" required>
+    </div>
+    <div class="mb-3">
+        <label for="subj3">Mathematics:</label>
+        <input type="text" id="subj3" name="subj3" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="subj4">Physics:</label>
+        <input type="text" id="subj4" name="subj4" required>
+    </div>
+    <div class="mb-3">
+        <label for="subj5">Chemistry:</label>
+        <input type="text" id="subj5" name="subj5" required>
+    </div>
+    <div class="mb-3">
+        <label for="subj6">Biology:</label>
+        <input type="text" id="subj6" name="subj6" required>
+    </div>
+
+    <button class="mb-3 btn btn-info" type="button" onclick="calculate()">Submit</button>
+    <div id="line"></div>
+
+    <div id="result1"></div>
+    <div id="result2"></div>
+    <div id="result3"></div>
+    <div id="result4"></div>
+    <div id="result5"></div>
+    <div id="result6"></div>      
+    <div id="total"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
