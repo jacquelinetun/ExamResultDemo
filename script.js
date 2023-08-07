@@ -10,21 +10,45 @@ function calculate() {
  
 
     document.getElementById("line").innerHTML = "Result: <br> ==================";
+    if (subj1 > 100 || subj1 <0){
+        document.getElementById("errorMsg").style.display = "block";
+        document.getElementById("total").innerText = "Invalid Result";
+    }
 
-    let Results = [subj1, subj2, subj3, subj4, subj5, subj6];
+    else if (subj2 > 100 || subj2 <0){
+        document.getElementById("errorMsg2").style.display = "block";
+        document.getElementById("total").innerText = "Invalid Result";
+    }
 
-    let hasInvalidResult = Results.some(score => isNaN(score) || score > 100 || score < 0);
+    else if (subj3 > 100 || subj3 <0){
+        document.getElementById("errorMsg3").style.display = "block";
+        document.getElementById("total").innerText = "Invalid Result";
+    }
 
-        if (hasInvalidResult) {
-            document.getElementById("errorMsg").style.display = "block";
-            document.getElementById("total").innerText = "Invalid Result";
+    else if (subj4 > 100 || subj4 <0){
+        document.getElementById("errorMsg4").style.display = "block";
+        document.getElementById("total").innerText = "Invalid Result";
+    }
 
-    // for (let i = 0; i < Results.length; i++) {
-       
-    //     if (Results[i]>100 || Results[i]<0) {
+    else if (subj5 > 100 || subj5 <0){
+        document.getElementById("errorMsg5").style.display = "block";
+        document.getElementById("total").innerText = "Invalid Result";
+    }
+
+    else if (subj6 > 100 || subj6 <0){
+        document.getElementById("errorMsg6").style.display = "block";
+        document.getElementById("total").innerText = "Invalid Result";
+    }
+
+    // let Results = [subj1, subj2, subj3, subj4, subj5, subj6];
+
+    // let hasInvalidResult = Results.some(Results => isNaN(Results) || Results > 100 || Results < 0);
+
+    //     if (hasInvalidResult) {
     //         document.getElementById("errorMsg").style.display = "block";
-    //         document.getElementById("total").innerText = "Invalid Result ";
-        }
+    //         document.getElementById("total").innerText = "Invalid Result";
+
+    //     }
         
         else {
 
@@ -103,12 +127,3 @@ function calculate() {
             document.getElementById("total").innerText = "Total: " + total   
         }
     }
-
-
-    //  if (subj1>100 ||subj2>100 ||subj3>100 || subj4>100 || subj5>100 || subj6>100 ) {
-    //     document.getElementById("errorMsg").style.display = "block";
-                
-    // }
-    // else if (subj1<0 ||subj2<0 ||subj3<0 || subj4<0 || subj5<0 || subj6<0 ){
-    //     document.getElementById("errorMsg");
-    // }
